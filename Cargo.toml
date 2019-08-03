@@ -1,0 +1,12 @@
+[package]
+name = "prometheus-teamspeak"
+version = "0.1.0"
+authors = ["Martin Tomasi <martin.tomasi@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+log = "0.4.8"
+env_logger = "0.6.2"
+prometheus_exporter = "0.4.0"
+prometheus = "0.7.0"
+structopt = "0.2.18"
